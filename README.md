@@ -111,21 +111,7 @@ with a IRB prompt in the server window. Here you can do things like:
 
   >> f = @posts.first
   => #<Post:0x13630c4 @attributes={"title"=>nil, "body"=>nil, "id"=>"1"}>
-  >> f.
-  Display all 152 possibilities? (y or n)
-
-Finally, when you're ready to resume execution, you can enter "cont".
-
-
-== Console
-
-The console is a Ruby shell, which allows you to interact with your
-application's domain model. Here you'll have all parts of the application
-configured, just like it is when the application is running. You can inspect
-domain models, change values, and save to the database. Starting the script
-without arguments will launch it in the development environment.
-
-To start the console, run <tt>rails console</tt> from the application
+ start the console, run <tt>rails console</tt> from the application
 directory.
 
 Options:
@@ -137,7 +123,6 @@ Options:
 
 To reload your controllers and models after launching the console run
 <tt>reload!</tt>
-
 More information about irb can be found at:
 link:http://www.rubycentral.org/pickaxe/irb.html
 
